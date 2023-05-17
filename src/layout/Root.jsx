@@ -1,12 +1,12 @@
 import { Outlet, useNavigation } from "react-router-dom";
-import Header from "../components/header";
+import HeaderUp from '../components/Header'
 
 const Root = () => {
     const navigation = useNavigation();
     
         return(
             <>
-                <Header/>
+                <HeaderUp/>
                 <main>{navigation.state === 'loading' ? 'Loading...': <Outlet/>}</main>
             </>
         );
