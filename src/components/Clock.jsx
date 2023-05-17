@@ -1,5 +1,5 @@
 import Countdown, {zeroPad} from 'react-countdown';
-import './clock.css';
+import './Clock.css';
 import PropTypes from 'prop-types';
 
 const Clock = () => {
