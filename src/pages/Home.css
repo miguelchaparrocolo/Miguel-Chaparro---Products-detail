@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns:  repeat(3, 1.5fr);;
+    width: 500px;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.container__product{
+    margin: 0 auto;
+    border:solid lightskyblue;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+}
+.container__product--name{
+    color: lightblue;
+    text-align:center;
+    width: 200px;
+    font-size: 15apx;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.tilte{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}

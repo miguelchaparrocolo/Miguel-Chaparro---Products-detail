@@ -1,0 +1,59 @@
+.about__title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: medium;
+}
+.about__container{
+    width:100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    color:lightblue;
+}
+.about__container--img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+    height: 150px;
+    width: 150px;
+}
+.about__container--profile{
+    display: grid;
+    margin-top: 5px;
+}
+.about__container--text{
+    width: 250px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.about__container--text__name{
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.about__container--text__description{
+    font-size: 20px;
+    text-align: center;
+}
+.about__container--learning{
+    margin-top: 10px;
+}
+.about__container--learning__title{
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.about__container--learning__list{
+    font-size: 20px;
+}
+.about__container--contact{
+    display:flex;
+    width: 600px;
+    font-size: 12px;
+    margin-top: 20px;
+    color: blue;
+}
+.about__container--contact__github a{
+    color: lightblue;
+}
