@@ -32,7 +32,9 @@ El comando Git pull permite traer los datos del repositorio remoto al local, con
 7. ¿Qué es el Virtual DOM?<br>
 Es un almacenador de estructuras de nuestros archivos e nuestro proyecto, por lo que el virtual DOM almacena el estado de nuestro proyecto. <br>
 <br>
-8. Dado el siguiente codePen, el cual solo tiene un HTML, por medio de css llegar a esta respuesta. Imagen.
+8. Dado el siguiente codePen, el cual solo tiene un HTML, por medio de css llegar a esta respuesta. Imagen.<br>
+<br>
+
 ### technologies
 
 
