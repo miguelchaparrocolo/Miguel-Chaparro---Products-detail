@@ -36,6 +36,7 @@ Es un almacenador de estructuras de nuestros archivos e nuestro proyecto, por lo
 <br>
 ![image](https://github.com/miguelchaparrocolo/Miguel-Chaparro---Products-detail/assets/122495031/a8e3215b-6303-4f15-83e6-0d2f9e0a48ca)
 <br>
+
 ### technologies
 
 
