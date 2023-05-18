@@ -1,5 +1,5 @@
 import './About.css';
-import Profile from '../../public/profile';
+import Photo from '../components/Profile';
 
 function About (){
     return(
@@ -7,7 +7,7 @@ function About (){
             <div className='about__title'><h1>About Me!</h1></div>
             <div className='about__container'>
                 <div className='about__container--profile'>
-                    <img src = {Profile} className='about__container--img' alt='profile_photo'></img>
+                    <img src = {Photo} className='about__container--img' alt='profile_photo'></img>
                     <div className='about__container--text'>
                         <div className='about__container--text__name'><h3>Miguel Chaparro</h3></div>
                         <div className='about__container--text__description'><p>Soy un Junior Developer y estudiante FullStack en Make It Real</p></div>

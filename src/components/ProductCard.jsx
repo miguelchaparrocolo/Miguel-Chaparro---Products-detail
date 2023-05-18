@@ -3,7 +3,7 @@ import './ProductCard.css';
 
 const ProductCard = () => {
     const { product } = useLoaderData();
-
+    
         return(
             <div className='container'>
                 <h2>{product.title}</h2>
