@@ -9,15 +9,14 @@ const Home = () => {
             <div>
                 <div className='title'><h2>Products</h2></div>
                 <div className='container'>
-                    {products.map((item, index) =>(
-                        <div className='container__product' key={ index }>
+                    {products.map((item) =>(
+                        <div className='container__product' key={ item.id }>
                             <img src={item.image} alt=''></img>
                             <div className='container__product--name'>
                                 {item.title}
                             </div>
                             {console.log(item.id)}
-                            <Link to={`/productcard/2`}>
-                               
+                            <Link to={`/productcard/${item.id}`}>
                                 <Clock/>
                             </Link>
                         </div>
@@ -33,6 +32,6 @@ export default Home;
     export const loaderProducts = async () => {
         const response = await fetch ('https://fakestoreapi.com/products');
             const data = await response.json();
-                
+
                 return { products: data};
     };
